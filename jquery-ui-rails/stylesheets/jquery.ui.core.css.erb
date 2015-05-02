@@ -38,6 +38,7 @@
 .ui-helper-clearfix:after {
 	content: "";
 	display: table;
+	border-collapse: collapse;
 }
 .ui-helper-clearfix:after {
 	clear: both;
@@ -52,7 +53,7 @@
 	left: 0;
 	position: absolute;
 	opacity: 0;
-	filter:Alpha(Opacity=0);
+	filter:Alpha(Opacity=0); /* support: IE8 */
 }
 
 .ui-front {

@@ -12,13 +12,15 @@
  *= require jquery.ui.core
  *= require jquery.ui.theme
  */
-.ui-resizable {
+..ui-resizable {
 	position: relative;
 }
 .ui-resizable-handle {
 	position: absolute;
 	font-size: 0.1px;
 	display: block;
+	-ms-touch-action: none;
+	touch-action: none;
 }
 .ui-resizable-disabled .ui-resizable-handle,
 .ui-resizable-autohide .ui-resizable-handle {
