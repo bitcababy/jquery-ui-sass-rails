@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', "~> 4.0.0.beta1"
+gem 'rails', ">=4.0.0"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -14,8 +14,8 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
 
-  gem 'uglifier', '>= 1.0.3'
-  gem 'sass-rails', '~> 4.0.0.beta1'
+  gem 'uglifier'
+  gem 'sass-rails'
 
   gem 'jquery-ui-sass-rails', :path => '..'
 end
